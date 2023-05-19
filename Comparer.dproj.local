@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/10/04 12:42:03.000.355,=rtl.dcp</Transaction>
+    <Transaction>2021/10/04 12:42:14.000.271,C:\Users\TiagoPassarella\OneDrive\Documentos\Embarcadero\Studio\Projects\DTComparer.dproj=C:\Users\TiagoPassarella\OneDrive\Documentos\Embarcadero\Studio\Projects\Package1.dproj</Transaction>
+    <Transaction>2021/10/04 12:45:04.000.898,=D:\Dropbox\Componentes\DTComparer\DTComparer.pas</Transaction>
+    <Transaction>2021/10/04 12:45:38.000.103,C:\Users\TiagoPassarella\OneDrive\Documentos\Embarcadero\Studio\Projects\Comparer.dproj=C:\Users\TiagoPassarella\OneDrive\Documentos\Embarcadero\Studio\Projects\DTComparer.dproj</Transaction>
+    <Transaction>2021/10/04 12:45:48.000.325,D:\Dropbox\Componentes\DTComparer\Comparer.dproj=C:\Users\TiagoPassarella\OneDrive\Documentos\Embarcadero\Studio\Projects\Comparer.dproj</Transaction>
+    <Transaction>2021/10/04 13:18:38.000.709,=vcl.dcp</Transaction>
+    <Transaction>2021/10/04 13:18:38.000.730,=dbrtl.dcp</Transaction>
+    <Transaction>2021/10/04 13:18:38.000.775,=vclFireDAC.dcp</Transaction>
+    <Transaction>2021/10/04 13:18:38.000.825,=FireDACCommonDriver.dcp</Transaction>
+    <Transaction>2021/10/04 13:18:38.000.877,=FireDACIBDriver.dcp</Transaction>
+    <Transaction>2021/10/04 13:18:38.000.801,=FireDAC.dcp</Transaction>
+    <Transaction>2021/10/04 13:18:38.000.852,=FireDACCommon.dcp</Transaction>
+    <Transaction>2021/10/04 13:18:38.000.752,=vcldb.dcp</Transaction>
+    <Transaction>2021/10/04 13:59:23.000.708,=dsnap.dcp</Transaction>
+  </Transactions>
+</BorlandProject>

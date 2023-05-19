@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{D9104BE2-C356-4E5A-A76B-2DC3DD5E6D3D}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Comparer.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Demo\DemoDTComparer.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Comparer">
+        <MSBuild Projects="Comparer.dproj"/>
+    </Target>
+    <Target Name="Comparer:Clean">
+        <MSBuild Projects="Comparer.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Comparer:Make">
+        <MSBuild Projects="Comparer.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DemoDTComparer">
+        <MSBuild Projects="Demo\DemoDTComparer.dproj"/>
+    </Target>
+    <Target Name="DemoDTComparer:Clean">
+        <MSBuild Projects="Demo\DemoDTComparer.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DemoDTComparer:Make">
+        <MSBuild Projects="Demo\DemoDTComparer.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Comparer;DemoDTComparer"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Comparer:Clean;DemoDTComparer:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Comparer:Make;DemoDTComparer:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
